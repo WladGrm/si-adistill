@@ -113,6 +113,8 @@ Teacher (50 steps) vs Student (1 step)
 .
 ├── README.md
 ├── Universal_Distillation_For_Stochastic_Interpolants.pdf
+├── SI_FM_distill.ipynb     # Self-contained notebook: train + distill on Fashion-MNIST
+├── images/                 # Result samples (teacher vs student)
 └── SiT/
     ├── models.py           # SiT transformer (S/2 .. XL/2)
     ├── train.py            # Teacher training (DDP)
